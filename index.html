@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="navbar">
+  <h1>Lets Grow More</h1>
+</div>
+
+<div id="container">
+  <div id="form-container">
+    <h1 style="margin-left:25% ;">Student Enrollment Form</h1>
+    <form id="registrationForm">
+      <div class="row">
+        <div class="col-25">
+          <label>Name :</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="name" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Email ID :</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" placeholder="Your email..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Website : </label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="website" placeholder="Your website..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Image Link :</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="imageLink" placeholder="URL of your image..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Gender :</label>
+        </div>
+        <div class="col-75">
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+          <input type="radio" name="gender" value="other"> Other
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Skills :</label>
+        </div>
+        <div class="col-75">
+          <input type="checkbox" name="skills[]" value="html"> HTML
+          <input type="checkbox" name="skills[]" value="css"> CSS
+          <input type="checkbox" name="skills[]" value="javascript"> JavaScript
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+  <div id="data-container">
+    <h1 style="margin-left:25% ;" >Enrolled Student</h1>
+    <div id="display-data">
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
