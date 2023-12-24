@@ -15,7 +15,7 @@ I'm thrilled to share the completion of my LGMVIP Web Developer Internship task 
 
 LGMVIP Web Developer Internship
 
-Task : Beginner Level - Task 2
+Task : Intermediate Level - Task 3
 
 Languages : HTML, CSS & JavaScript
 
